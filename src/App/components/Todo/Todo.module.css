@@ -1,0 +1,58 @@
+.todo {
+    width: 100%;
+    min-height: 50px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+    border-radius: 30px;
+    border: black solid 4px;
+    margin-bottom: 10px;
+    transition: all 0.5s linear;
+    box-shadow: 0px 0px 20px rgba(0,0,0, 0.5);
+}
+
+.completed {
+    background-color: greenyellow;
+}
+
+.completed .title {
+    text-decoration: line-through;
+}
+
+.todo_container_text {
+    padding: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.todo_container_buttons {
+    display: flex;
+    align-items: center;
+}
+
+
+.todo_button {
+    width: 80px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 2px;
+    margin-right: 20px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 24px;
+    flex: 1 1 auto;
+    word-break:break-all;
+}
+
+.todo_settings_completed {
+    transform:scale(2);
+    opacity: 0.8;
+    cursor: pointer;
+}
